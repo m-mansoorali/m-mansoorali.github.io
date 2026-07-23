@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission Log — Mansoor Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <canvas id="starfield"></canvas>
+  <div id="stars"></div>
+
+  <div class="content">
+
+    <nav>
+      <a class="nav-brand" href="index.html"><span class="dot"></span> M. ALI / DEVOPS</a>
+      <button class="nav-toggle" aria-label="Toggle menu">MENU</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Crew Bio</a>
+        <a href="skills.html">Systems</a>
+        <a href="projects.html" class="active">Missions</a>
+        <a href="opensource.html">Open Source</a>
+        <a href="blog.html">Dispatches</a>
+        <a href="contact.html">Ground Control</a>
+      </div>
+    </nav>
+
+    <div class="page-header">
+      <div class="eyebrow">04 / Mission Log</div>
+      <h1>FEATURED PROJECTS</h1>
+      <p class="lead">Systems designed, built, and kept running.</p>
+    </div>
+
+    <section>
+      <div class="missions">
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">01</div>
+            <div class="msn">MSN-01</div>
+          </div>
+          <div class="mission-body">
+            <h3>Orbital CI/CD Pipeline</h3>
+            <p>Placeholder description: rebuilt a legacy release process into an automated GitHub Actions + ArgoCD
+              pipeline, cutting deployment time from 40 minutes to under 6 and eliminating manual approval bottlenecks.
+            </p>
+            <div class="mission-links">
+              <a href="#">GitHub &#8594;</a>
+              <a href="#">Case Study &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">02</div>
+            <div class="msn">MSN-02</div>
+          </div>
+          <div class="mission-body">
+            <h3>Constellation Monitoring Stack</h3>
+            <p>Placeholder description: deployed a Prometheus, Grafana, and Loki observability stack across 30+
+              microservices, giving on-call engineers a single dashboard and cutting mean-time-to-detect by half.</p>
+            <div class="mission-links">
+              <a href="#">GitHub &#8594;</a>
+              <a href="#">Live Demo &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">03</div>
+            <div class="msn">MSN-03</div>
+          </div>
+          <div class="mission-body">
+            <h3>Nebula IaC Toolkit</h3>
+            <p>Placeholder description: an open-source library of reusable Terraform modules for multi-cloud
+              infrastructure, adopted by three internal teams to standardize environments and cut provisioning time by
+              60%.</p>
+            <div class="mission-links">
+              <a href="#">GitHub &#8594;</a>
+              <a href="#">Docs &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">04</div>
+            <div class="msn">MSN-04</div>
+          </div>
+          <div class="mission-body">
+            <h3>Launchpad Kubernetes Cluster</h3>
+            <p>Placeholder description: designed a self-healing, autoscaling Kubernetes cluster with documented on-call
+              runbooks, reducing after-hours incidents by 45% over two quarters.</p>
+            <div class="mission-links">
+              <a href="#">GitHub &#8594;</a>
+              <a href="#">Runbook &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="manifest">
+        <div class="m-left">
+          <h3>Flight Manifest</h3>
+          <p>Full résumé, certifications, and mission history in one document.</p>
+        </div>
+        <a class="btn btn-primary" href="#">Download Résumé</a>
+      </div>
+    </section>
+
+    <footer><span class="blink">&#9679;</span> END TRANSMISSION &mdash; MANSOOR ALI MISSION CONTROL &copy; 2026</footer>
+
+  </div>
+
+  <script src="starfield.js"></script>
+</body>
+
+</html>

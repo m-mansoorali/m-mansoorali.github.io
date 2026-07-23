@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crew Bio — Mansoor Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <canvas id="starfield"></canvas>
+  <div id="stars"></div>
+
+  <div class="content">
+
+    <nav>
+      <a class="nav-brand" href="index.html"><span class="dot"></span> M. ALI / DEVOPS</a>
+      <button class="nav-toggle" aria-label="Toggle menu">MENU</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">Crew Bio</a>
+        <a href="skills.html">Systems</a>
+        <a href="projects.html">Missions</a>
+        <a href="opensource.html">Open Source</a>
+        <a href="blog.html">Dispatches</a>
+        <a href="contact.html">Ground Control</a>
+      </div>
+    </nav>
+
+    <div class="page-header">
+      <div class="eyebrow">01 / Crew Bio</div>
+      <h1>ABOUT THE OPERATOR</h1>
+      <p class="lead">Background, philosophy, and mission history.</p>
+    </div>
+
+    <section>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Placeholder bio &mdash; replace with your own story. I'm a DevOps engineer who treats infrastructure like
+            flight hardware: instrumented, redundant, and boring in the best possible way. Over the last several years
+            I've helped teams move from manual, high-drama deploys to automated pipelines that ship with confidence.</p>
+          <p>I care most about the unglamorous parts of engineering &mdash; the runbooks, the alerting thresholds, the
+            postmortems nobody wants to write but everybody's grateful exist. Good infrastructure is invisible when it's
+            working.</p>
+          <p>Outside of work I like reading about actual spaceflight history, which is partly why this page looks like a
+            mission patch. <span class="callsign">Callsign: PIPELINE-1.</span></p>
+        </div>
+        <div class="log-card">
+          <div class="log-line"><span>Location</span><span>Remote / Cambridge, UK</span></div>
+          <div class="log-line"><span>Experience</span><span>6+ Years</span></div>
+          <div class="log-line"><span>Specialty</span><span>CI/CD &amp; Cloud Infra</span></div>
+          <div class="log-line"><span>Current Role</span><span>Senior DevOps Engineer</span></div>
+          <div class="log-line"><span>Status</span><span>Open to Opportunities</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="eyebrow">Mission History</div>
+      <h2 class="section-title">CAREER TIMELINE</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="t-year">2024 &mdash; Present</div>
+          <h4>Senior DevOps Engineer, Placeholder Corp</h4>
+          <p>Leading platform reliability for a fleet of 40+ microservices; owns the CI/CD pipeline and on-call
+            rotation.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">2021 &mdash; 2024</div>
+          <h4>DevOps Engineer, Placeholder Labs</h4>
+          <p>Migrated on-prem infrastructure to AWS; built the org's first Kubernetes cluster and Terraform module
+            library.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">2019 &mdash; 2021</div>
+          <h4>Site Reliability Intern &rarr; Junior SRE, Placeholder Systems</h4>
+          <p>Started on the observability team, wrote early Prometheus alerting rules and on-call documentation.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">2018</div>
+          <h4>B.Sc. Computer Science, Placeholder University</h4>
+          <p>Focused on distributed systems; senior project on container orchestration.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer><span class="blink">&#9679;</span> END TRANSMISSION &mdash; MANSOOR ALI MISSION CONTROL &copy; 2026</footer>
+
+  </div>
+
+  <script src="starfield.js"></script>
+</body>
+
+</html>
