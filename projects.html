@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission Log — Mansoor Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <canvas id="starfield"></canvas>
+  <div id="stars"></div>
+
+  <div class="content">
+
+    <nav>
+      <a class="nav-brand" href="index.html"><span class="dot"></span> M. ALI / DEVOPS</a>
+      <button class="nav-toggle" aria-label="Toggle menu">MENU</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Crew Bio</a>
+        <a href="skills.html">Systems</a>
+        <a href="projects.html" class="active">Missions</a>
+        <a href="opensource.html">Open Source</a>
+        <a href="blog.html">Dispatches</a>
+        <a href="contact.html">Ground Control</a>
+      </div>
+    </nav>
+
+    <div class="page-header">
+      <div class="eyebrow">04 / Mission Log</div>
+      <h1>FEATURED PROJECTS</h1>
+      <p class="lead">Systems designed, built, and kept running.</p>
+    </div>
+
+    <section>
+      <div class="missions">
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">01</div>
+            <div class="msn">MSN-01</div>
+          </div>
+          <div class="mission-body">
+            <h3>GitOps on Kubernetes</h3>
+            <p>Implemented FluxCD GitOps workflows at the UK SKA Regional Centre, enabling automated, version-controlled
+              deployments across Kubernetes clusters and keeping scientific workloads highly available.</p>
+            <div class="mission-links">
+              <a href="https://github.com/m-mansoorali" target="_blank" rel="noopener">GitHub &#8594;</a>
+              <a href="contact.html">Contact &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">02</div>
+            <div class="msn">MSN-02</div>
+          </div>
+          <div class="mission-body">
+            <h3>HashiCorp Vault Secrets Management</h3>
+            <p>Led the design and implementation of a secrets-management solution using HashiCorp Vault within a legacy
+              Bash/Ansible deployment suite, and hardened ciphers to mitigate SWEET32 birthday attacks.</p>
+            <div class="mission-links">
+              <a href="https://github.com/m-mansoorali" target="_blank" rel="noopener">GitHub &#8594;</a>
+              <a href="contact.html">Contact &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">03</div>
+            <div class="msn">MSN-03</div>
+          </div>
+          <div class="mission-body">
+            <h3>CentOS to OEL Migration</h3>
+            <p>Owned the full infrastructure migration from CentOS to Oracle Enterprise Linux &mdash; covering Jenkins,
+              Bitbucket, and SonarQube &mdash; and moved microservices from Docker to Podman for better security and
+              FIPS compliance.</p>
+            <div class="mission-links">
+              <a href="https://github.com/m-mansoorali" target="_blank" rel="noopener">GitHub &#8594;</a>
+              <a href="contact.html">Contact &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission-card">
+          <div class="mission-id">
+            <div class="mission-badge">04</div>
+            <div class="msn">MSN-04</div>
+          </div>
+          <div class="mission-body">
+            <h3>Hardened Container Platform</h3>
+            <p>Implemented container security best practices &mdash; image scanning with Black Duck, vulnerability
+              management with Qualys, and version-control scanning with Mend &mdash; then rolled out Argo CD on staging
+              environments.</p>
+            <div class="mission-links">
+              <a href="https://github.com/m-mansoorali" target="_blank" rel="noopener">GitHub &#8594;</a>
+              <a href="contact.html">Contact &#8594;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="manifest">
+        <div class="m-left">
+          <h3>Flight Manifest</h3>
+          <p>Full résumé, certifications, and mission history in one document.</p>
+        </div>
+        <a class="btn btn-primary" href="contact.html">Request My Résumé</a>
+      </div>
+    </section>
+
+    <footer><span class="blink">&#9679;</span> END TRANSMISSION &mdash; MANSOOR ALI MISSION CONTROL &copy; 2026</footer>
+
+  </div>
+
+  <script src="starfield.js"></script>
+</body>
+
+</html>

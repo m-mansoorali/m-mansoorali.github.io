@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboard Systems — Mansoor Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <canvas id="starfield"></canvas>
+  <div id="stars"></div>
+
+  <div class="content">
+
+    <nav>
+      <a class="nav-brand" href="index.html"><span class="dot"></span> M. ALI / DEVOPS</a>
+      <button class="nav-toggle" aria-label="Toggle menu">MENU</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Crew Bio</a>
+        <a href="skills.html" class="active">Systems</a>
+        <a href="projects.html">Missions</a>
+        <a href="opensource.html">Open Source</a>
+        <a href="blog.html">Dispatches</a>
+        <a href="contact.html">Ground Control</a>
+      </div>
+    </nav>
+
+    <div class="page-header">
+      <div class="eyebrow">02 / Onboard Systems</div>
+      <h1>SKILLS &amp; TOOLING</h1>
+      <p class="lead">The platforms and tools that keep every mission running.</p>
+    </div>
+
+    <section>
+      <div class="systems-grid">
+        <div class="system-panel">
+          <h3>Cloud &amp; Infra</h3>
+          <span class="sys-status">&#9679; Operational</span>
+          <div class="chip-row">
+            <span class="chip">AWS / EC2</span>
+            <span class="chip">ECS</span>
+            <span class="chip">Linux / OEL</span>
+            <span class="chip">HPC / Azimuth</span>
+          </div>
+        </div>
+        <div class="system-panel">
+          <h3>Containers &amp; Orchestration</h3>
+          <span class="sys-status">&#9679; Operational</span>
+          <div class="chip-row">
+            <span class="chip">Docker</span>
+            <span class="chip">Podman</span>
+            <span class="chip">Kubernetes</span>
+            <span class="chip">Helm / K3s / RKE2</span>
+            <span class="chip">Argo CD</span>
+          </div>
+        </div>
+        <div class="system-panel">
+          <h3>CI/CD &amp; GitOps</h3>
+          <span class="sys-status">&#9679; Operational</span>
+          <div class="chip-row">
+            <span class="chip">Jenkins</span>
+            <span class="chip">GitLab CI</span>
+            <span class="chip">Bitbucket</span>
+            <span class="chip">FluxCD</span>
+          </div>
+        </div>
+        <div class="system-panel">
+          <h3>Observability</h3>
+          <span class="sys-status">&#9679; Operational</span>
+          <div class="chip-row">
+            <span class="chip">ELK</span>
+            <span class="chip">OpenTelemetry</span>
+            <span class="chip">Prometheus</span>
+            <span class="chip">Grafana</span>
+          </div>
+        </div>
+        <div class="system-panel">
+          <h3>Scripting &amp; Config</h3>
+          <span class="sys-status">&#9679; Operational</span>
+          <div class="chip-row">
+            <span class="chip">Bash</span>
+            <span class="chip">Python</span>
+            <span class="chip">Ansible</span>
+            <span class="chip">Helm Charts</span>
+          </div>
+        </div>
+        <div class="system-panel">
+          <h3>Security &amp; Reliability</h3>
+          <span class="sys-status">&#9679; Operational</span>
+          <div class="chip-row">
+            <span class="chip">HashiCorp Vault</span>
+            <span class="chip">Container Security</span>
+            <span class="chip">SRE Practices</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="eyebrow">03 / Certifications</div>
+      <h2 class="section-title">FLIGHT CERTIFICATIONS</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-seal">&#9733;</div>
+          <div>
+            <h3>Certified Kubernetes Application Developer (CKAD)</h3>
+            <div class="cert-meta">The Linux Foundation &bull; Issued Apr 2024 &bull; Expires Apr 2027</div>
+            <p>Designs and builds cloud-native applications that run best on Kubernetes clusters.</p>
+            <a class="cert-status" href="https://www.credly.com/badges/3612eb2a-b612-44e6-8d25-68f7254ce2a5/public_url" target="_blank" rel="noopener">&#9679; Verify Credential</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-seal">&#9881;</div>
+          <div>
+            <h3>Certified Kubernetes Administrator (CKA)</h3>
+            <div class="cert-meta">The Linux Foundation &bull; Issued Sep 2022 &bull; Expires Sep 2025</div>
+            <p>Cluster administration, networking, storage, and troubleshooting.</p>
+            <a class="cert-status" href="https://www.credly.com/badges/c7265061-3427-4525-99cc-97a04bca9ad8/public_url" target="_blank" rel="noopener">&#9679; Verify Credential</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-seal">&#9670;</div>
+          <div>
+            <h3>HashiCorp Certified: Vault Associate (HCVA)</h3>
+            <div class="cert-meta">HashiCorp &bull; Issued Oct 2023 &bull; Expires Oct 2025</div>
+            <p>Secrets management and modern IT workflows with HashiCorp Vault.</p>
+            <a class="cert-status" href="https://www.credly.com/badges/dae4133c-d635-435a-8a7e-d52f587bc480" target="_blank" rel="noopener">&#9679; Verify Credential</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-seal">&#9650;</div>
+          <div>
+            <h3>Certified SAFe&reg; 6 Practitioner</h3>
+            <div class="cert-meta">Scaled Agile, Inc &bull; Issued May 2025 &bull; Expires May 2026</div>
+            <p>Agile, lean, and SAFe practices for executing across teams and programs.</p>
+            <a class="cert-status" href="https://www.credly.com/badges/72013515-7643-4aac-9482-ed28a7514cab/public_url" target="_blank" rel="noopener">&#9679; Verify Credential</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer><span class="blink">&#9679;</span> END TRANSMISSION &mdash; MANSOOR ALI MISSION CONTROL &copy; 2026</footer>
+
+  </div>
+
+  <script src="starfield.js"></script>
+</body>
+
+</html>

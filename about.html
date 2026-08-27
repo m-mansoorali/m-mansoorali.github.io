@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crew Bio — Mansoor Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <canvas id="starfield"></canvas>
+  <div id="stars"></div>
+
+  <div class="content">
+
+    <nav>
+      <a class="nav-brand" href="index.html"><span class="dot"></span> M. ALI / DEVOPS</a>
+      <button class="nav-toggle" aria-label="Toggle menu">MENU</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">Crew Bio</a>
+        <a href="skills.html">Systems</a>
+        <a href="projects.html">Missions</a>
+        <a href="opensource.html">Open Source</a>
+        <a href="blog.html">Dispatches</a>
+        <a href="contact.html">Ground Control</a>
+      </div>
+    </nav>
+
+    <div class="page-header">
+      <div class="eyebrow">01 / Crew Bio</div>
+      <h1>ABOUT THE OPERATOR</h1>
+      <p class="lead">Background, philosophy, and mission history.</p>
+    </div>
+
+    <section>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I&rsquo;m a DevOps Engineer with 6.5+ years of experience building and optimizing scalable infrastructure,
+            CI/CD pipelines, and Kubernetes platforms across enterprise and research environments. Certified in CKAD,
+            CKA, HashiCorp Vault, and SAFe, I specialize in GitOps, secrets management, container security, and
+            infrastructure automation.</p>
+          <p>I&rsquo;ve led large-scale migrations, stood up secure high-availability Kubernetes clusters, and
+            introduced
+            DevOps best practices that improved reliability and reduced deployment time &mdash; work recognized with a
+            Performer of the Year award in 2023. Good infrastructure is invisible when it is working.</p>
+          <p>I care most about the unglamorous parts of engineering &mdash; the runbooks, the alerting thresholds, the
+            postmortems nobody wants to write but everybody&rsquo;s grateful exist. Outside of work I like reading about
+            actual spaceflight history, which is partly why this page looks like a mission patch. <span
+              class="callsign">Callsign: PIPELINE-1.</span></p>
+        </div>
+        <div class="log-card">
+          <div class="log-line"><span>Location</span><span>Cambridge, UK</span></div>
+          <div class="log-line"><span>Experience</span><span>6.5+ Years</span></div>
+          <div class="log-line"><span>Specialty</span><span>Kubernetes, CI/CD &amp; GitOps</span></div>
+          <div class="log-line"><span>Current Role</span><span>DevOps Engineer, Univ. of Cambridge</span></div>
+          <div class="log-line"><span>Status</span><span>Open to Missions</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="eyebrow">Mission History</div>
+      <h2 class="section-title">CAREER TIMELINE</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="t-year">Mar 2025 &mdash; Present</div>
+          <h4>UK SKA Regional Centre DevOps Engineer, University of Cambridge</h4>
+          <p>Integrating AI-assisted development into DevOps workflows, and implementing GitOps with FluxCD for
+            version-controlled Kubernetes deployments supporting scientific workloads.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">Jan 2025 &mdash; Mar 2025</div>
+          <h4>Lead DevOps Engineer, Afiniti</h4>
+          <p>Led platform and pipeline initiatives across the infrastructure team, driving reliability and
+            delivery improvements.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">Mar 2022 &mdash; Jan 2025</div>
+          <h4>Senior DevOps Engineer, Afiniti</h4>
+          <p>Owned a CentOS-to-OEL infrastructure migration, designed a HashiCorp Vault secrets-management solution,
+            and hardened the deployment platform for security and FIPS compliance.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">Oct 2020 &mdash; Feb 2022</div>
+          <h4>DevOps Engineer, Afiniti</h4>
+          <p>Matured Jenkins pipelines as code, built Ansible-driven infrastructure automation, and managed microservice
+            deployments via an in-house Docker registry.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">Sep 2019 &mdash; Oct 2020</div>
+          <h4>DevOps Engineer, TheHelpDesk</h4>
+          <p>Implemented GitLab CI/CD across 50+ EC2 nodes, moved deployments from 30-minute releases to one-click
+            deploys, and migrated applications from bare metal to ECS.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">Apr 2018 &mdash; Oct 2020</div>
+          <h4>Analyst DevOps Engineer, ITBoost</h4>
+          <p>Provided Linux/Unix admin support, deployed automation and configuration management, and handled ELK-based
+            admin tooling and MongoDB support.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">2020 &mdash; 2024</div>
+          <h4>B.Sc. Information Technology, Virtual University of Pakistan</h4>
+          <p>Completed the degree while building professional experience in parallel.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer><span class="blink">&#9679;</span> END TRANSMISSION &mdash; MANSOOR ALI MISSION CONTROL &copy; 2026</footer>
+
+  </div>
+
+  <script src="starfield.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ground Control — Mansoor Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <canvas id="starfield"></canvas>
+  <div id="stars"></div>
+
+  <div class="content">
+
+    <nav>
+      <a class="nav-brand" href="index.html"><span class="dot"></span> M. ALI / DEVOPS</a>
+      <button class="nav-toggle" aria-label="Toggle menu">MENU</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Crew Bio</a>
+        <a href="skills.html">Systems</a>
+        <a href="projects.html">Missions</a>
+        <a href="opensource.html">Open Source</a>
+        <a href="blog.html">Dispatches</a>
+        <a href="contact.html" class="active">Ground Control</a>
+      </div>
+    </nav>
+
+    <div class="page-header">
+      <div class="eyebrow">07 / Comms</div>
+      <h1>REQUEST FOR TRANSMISSION</h1>
+      <p class="lead">Open to new missions, collaborations, and the occasional 3am page.</p>
+    </div>
+
+    <section>
+      <div class="ground-control">
+        <h2>OPEN A CHANNEL</h2>
+        <p>Reach out through any channel below, or send a direct transmission using the form.</p>
+        <div class="contact-links">
+          <a href="mailto:imansoorali@aol.com">Email</a>
+          <a href="https://github.com/m-mansoorali" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/imansoor-ali" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://medium.com/@imansoorali" target="_blank" rel="noopener">Medium</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="eyebrow">Direct Transmission</div>
+      <h2 class="section-title">SEND A MESSAGE</h2>
+      <form class="contact-form" action="mailto:imansoorali@aol.com" method="post" enctype="text/plain">
+        <div>
+          <label for="name">Callsign (Name)</label>
+          <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+        </div>
+        <div>
+          <label for="email">Return Frequency (Email)</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="What's the mission?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Transmit</button>
+      </form>
+    </section>
+
+    <footer><span class="blink">&#9679;</span> END TRANSMISSION &mdash; MANSOOR ALI MISSION CONTROL &copy; 2026</footer>
+
+  </div>
+
+  <script src="starfield.js"></script>
+</body>
+
+</html>
